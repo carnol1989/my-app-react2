@@ -1,15 +1,19 @@
 import React, { useState } from 'react';
 
-const UseState2 = () => {
+const Ejercicio02 = () => {
     
     const [state, setState] = useState({
-        clicks: 0,
+        clicks: 0
+    })
+
+    const [state2, setState2] = useState({
         title: ''
     })
 
     const merge = (nextState) => {
         setState({
-            ...state,//spread operator (...) para copiar un objeto
+            ...state,
+            ...state2,
             ...nextState
         })
     }
@@ -31,4 +35,4 @@ const UseState2 = () => {
     )
 }
 
-export default UseState2;
+export default Ejercicio02;

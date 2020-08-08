@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { Portal } from './components/Portales';
 import UseState from './components/hooks/UseState-1';
 import UseState2 from './components/hooks/UseState-2';
+import Ejercicio02 from './components/hooks/Ejercicio02';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ ReactDOM.render(
     <Portal />
     <UseState />
     <UseState2 />
+    <Ejercicio02 />
   </React.StrictMode>,
   document.getElementById('root')
 );
