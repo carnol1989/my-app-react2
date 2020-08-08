@@ -7,14 +7,16 @@ import { Portal } from './components/Portales';
 import UseState from './components/hooks/UseState-1';
 import UseState2 from './components/hooks/UseState-2';
 import Ejercicio02 from './components/hooks/Ejercicio02';
+import CicloDeVida from './components/hooks/CicloDeVida';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/*<App />*/}
+    {/*<App />
     <Portal />
     <UseState />
-    <UseState2 />
+    <UseState2 />*/}
     <Ejercicio02 />
+    <CicloDeVida />
   </React.StrictMode>,
   document.getElementById('root')
 );
