@@ -12,7 +12,11 @@ const Ejercicio02 = () => {
 
     const merge = (nextState) => {
         setState({
-            ...state,
+            ...state,            
+            ...nextState
+        })
+
+        setState2({
             ...state2,
             ...nextState
         })
