@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { Portal } from './components/Portales';
+import UseState from './components/hooks/UseState-1';
+import UseState2 from './components/hooks/UseState-2';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/*<App />*/}
+    <Portal />
+    <UseState />
+    <UseState2 />
   </React.StrictMode>,
   document.getElementById('root')
 );
