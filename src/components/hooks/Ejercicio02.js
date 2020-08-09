@@ -33,6 +33,7 @@ const Ejercicio02 = () => {
     
     return(
         <div>
+            <h3>Ejercicio 02</h3>
             <input type="text" onChange={handleInput} />
             <button onClick={addClicks}>Contador({state.clicks})</button>
         </div>

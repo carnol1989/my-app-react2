@@ -8,6 +8,17 @@ import UseState from './components/hooks/UseState-1';
 import UseState2 from './components/hooks/UseState-2';
 import Ejercicio02 from './components/hooks/Ejercicio02';
 import CicloDeVida from './components/hooks/CicloDeVida';
+import ParentComponents from './components/comunicacion/ParentComponents';
+import RenderProp from './components/comunicacion/RenderProp';
+import Ejercicio03 from './components/comunicacion/Ejercicio03';
+import Hoc from './components/comunicacion/Hoc';
+import InputNoControladosRef from './components/formulario/InputNoControlados';
+import InputNoControladoForm from './components/formulario/InputNoControladoForm';
+import InputControlado from './components/formulario/InputControlado';
+import InputControlado2 from './components/formulario/InputControlado2';
+import ApiContext from './components/api-context/ApiContext';
+import Ejercicio04 from './components/formulario/Ejercicio04';
+import Ejercicio05 from './components/formulario/Ejercicio05';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,7 +27,18 @@ ReactDOM.render(
     <UseState />
     <UseState2 />*/}
     <Ejercicio02 />
-    <CicloDeVida />
+    {/*<CicloDeVida />
+    <ParentComponents />
+    <RenderProp />*/}
+    <Ejercicio03 />
+    {/*<Hoc/>
+    <InputNoControladosRef />
+    <InputNoControladoForm />
+    <InputControlado />
+    <InputControlado2 />
+    <ApiContext />*/}
+    <Ejercicio04 />
+    <Ejercicio05 />
   </React.StrictMode>,
   document.getElementById('root')
 );
