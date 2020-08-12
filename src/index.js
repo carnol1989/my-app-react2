@@ -19,6 +19,7 @@ import InputControlado2 from './components/formulario/InputControlado2';
 import ApiContext from './components/api-context/ApiContext';
 import Ejercicio04 from './components/formulario/Ejercicio04';
 import Ejercicio05 from './components/formulario/Ejercicio05';
+import Tarea02 from './components/hooks/Tarea02';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -26,19 +27,20 @@ ReactDOM.render(
     <Portal />
     <UseState />
     <UseState2 />*/}
-    <Ejercicio02 />
-    {/*<CicloDeVida />
+    {/*<Ejercicio02 />
+    <CicloDeVida />
     <ParentComponents />
     <RenderProp />*/}
-    <Ejercicio03 />
-    {/*<Hoc/>
+    {/*<Ejercicio03 />
+    <Hoc/>
     <InputNoControladosRef />
     <InputNoControladoForm />
     <InputControlado />
     <InputControlado2 />
-    <ApiContext />*/}
+    <ApiContext />
     <Ejercicio04 />
-    <Ejercicio05 />
+    <Ejercicio05 />*/}
+    <Tarea02 />
   </React.StrictMode>,
   document.getElementById('root')
 );
